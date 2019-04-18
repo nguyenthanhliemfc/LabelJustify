@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CustomLabel"
+             x:Class="CustomLabel.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <local:CustomLabel Text="How to use the views provided by Xamarin.Forms
+
+Animation
+Xamarin.Forms includes its own animation infrastructure that's straightforward for creating simple animations, while also being versatile enough to create complex animations.
+
+BoxView
+The BoxView is just a simple colored rectangle, but it can be used for decorative items, rudimentary graphics, and for obtaining interative touch input.
+
+Button
+The Button responds to a tap or click that directs an application to carry out a particular task.
+
+CollectionView
+The CollectionView is a flexible and performant view for presenting lists of data using different layout specifications.
+
+Colors
+Defining and using colors across platforms can be tricky when each platform has its own standards and defaults.
+
+Controls Reference
+This document is a quick reference to the UI views that make up the Xamarin.Forms framework, such as Pages, Layouts, Views and Cells.
+
+DataPages
+DataPages provide an API to quickly and easily bind a data source to pre-built views. List items and detail pages will automatically render the data, and be customized using themes.
+
+DatePicker
+The DatePicker allows a user to select a date within a specified range. It is implemented using the date picker supported by the particular platform that the application is run on.
+
+Graphics with SkiaSharp
+How to incorporate graphics into a Xamarin.Forms application using SkiaSharp." 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>
